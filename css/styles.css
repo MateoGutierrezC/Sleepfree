@@ -1,0 +1,138 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: #b2dfdb;
+}
+
+/* navbar */
+nav {
+  background-color: #607d8b;
+}
+
+.brand-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  margin: 0px;
+}
+.brand-logo img{
+  width: 200px;
+  height: 65px !important;
+  margin-top: 0 !important;
+}
+
+nav ul a {
+  padding: 0px 50px;
+  font-size: 1.5rem;
+}
+
+nav .brand-logo {
+  padding: 0px 50px;
+}
+
+nav .brand-logo img {
+  height: 50px;
+}
+
+/* carrusel ---------------------------------------------------*/
+.slider{
+  background-color: #607d8b;
+  height: 6000px;
+}
+.slider .slides .carousel-item img{
+  width: 100%;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+}
+/* --------------------------------------------------- */
+h1{
+  text-align: center;
+  background-color:#80cbc4;
+  padding: 10px;
+  width: 590px;
+  border-radius: 10px;
+}
+
+/* cards-collapsibe ---------------------------------------------------*/
+.collapsible{
+  text-align: center;
+}
+.collapsible img {
+  border-style: none;
+  width: 20.5vw;
+  height: 372px;
+}
+
+.modal-footer a{
+  border: #80cbc4 solid 2px;
+  background-color: #80cbc4;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+/* productos ---------------------------------------------------*/
+.row ul {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+/* productos2 ---------------------------------------------------*/
+.promos {
+  height: 850px;
+  width: 100%;
+  background-color: #80cbc4;
+}
+
+.promos img {
+  border-style: none;
+  height: 341px;
+  width: 110%;
+  padding: 20px 0;
+}
+
+.contVideo{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 300px;
+}
+.contVideo video{
+  width: 50%;
+}
+/* footer ---------------------------------------------------*/
+.foot {
+  height: 80px;
+}
+
+.foot .i {
+  font-size: 24px;
+  border: #fff solid 2px;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  margin: 0px 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconos {
+  display: flex;
+  justify-content: center;
+}
+
+.iconos .i:hover {
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+
+.footer-copyright .container {
+  text-align: center;
+}
